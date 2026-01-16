@@ -1,4 +1,4 @@
-# 🌙 MoonMusic  (Project Moon)
+# 🌙 MoonMusic
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Flet](https://img.shields.io/badge/Flet-UI-purple)
@@ -32,11 +32,40 @@
 
 ## 🛠️ 安装与运行 (Installation)
 
+### 运行效果
+![播放器](https://github.com/MoonPointer-Byte/MoonMusic/blob/main/image%20copy.png)
+![音乐](https://github.com/MoonPointer-Byte/MoonMusic/blob/main/image.png)
+![图片](https://github.com/MoonPointer-Byte/MoonMusic/blob/main/image%20copy%202.png)
+![用户](https://github.com/MoonPointer-Byte/MoonMusic/blob/main/image%20copy%203.png)
 ### 环境要求
-*   Python 3.12
+*   Python 3.8+
 *   Windows / macOS / Linux
 
 ### 1. 克隆项目
 ```bash
-git clone https://github.com/MoonPointer-Byte/MoonMusic.git
-cd MoonMusic
+git clone https://github.com//MoonPointer-Byte/MoonMusic.git
+cd MoonMusicPC
+```
+### 2. 安装依赖
+```bash
+pip install -r requirements.txt
+```
+依赖库包括：flet, httpx, beautifulsoup4, pygame, mutagen
+3. 运行
+```bash
+cd MoonMusicPC
+python main.py
+```
+
+## ⚙️ 配置说明 (Configuration)
+点击界面右上角的 设置 (Settings) 图标即可配置：
+网易云 Cookie: 用于获取更高音质或 VIP 歌曲。
+QQ 音乐 Cookie & UIN: 解决部分歌曲无法播放的问题。
+注意：所有配置仅保存在本地 config.json 中，不会上传至任何服务器。
+## 📝 声明 (Disclaimer)
+本项目仅供 Python 学习与技术研究使用。
+文中涉及的接口均来自网络公开抓包，项目不存储任何版权音乐文件。
+请在下载后 24 小时内删除相关文件。
+严禁将本项目用于任何商业用途，由此产生的法律纠纷与开发者无关。
+## 🤝 贡献 (Contributing)
+欢迎提交 Issues 和 Pull Requests！让我们一起把这个播放器做得更好。
